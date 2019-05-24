@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Mission to Mars</title>
+</head>
+<body>
+        <div clas="container">
+                <div class="jumbotron">
+                    <h1 align="center">Mission to Mars</h1>
+                    
+                    <p align="Center">
+                        <a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a>
+                    </p>
+                </div>
+                <div class="page-header">
+                    <h1>Latest Mars News</h1>
+                </div>
+        </div>  
+
+                
+                <div class="container-fluid">
+                    <h2>{{mars_data.title}}</h2>
+                    <p>{{mars_data.text}}</p>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h3>Featured Image</h3>
+                            
+                            <img src="{{mars_data.image}}" alt="featured image" style="width: 80%;">
+
+                        </div>
+                        <div class="col-md-5">
+                            <ul>
+                                <h3>Current Mars Weather</h3>
+                                {{mars_data.twitter}}
+                            </ul>
+                                
+                                
+                            <ul>
+                                <h3>Mars Facts</h3>
+                                {{mars_data.table|safe}}
+                                <a href="{{mars_data.table}}"></a>
+                            </ul>
+                        </div>
+                    </div>                 
+                </div>
+                
+                <div class="container-fluid">
+                    <H3 align="center">Mars Hemispheres</H3>
+                    <div class="body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            
+                            <img src="{{mars_data.hemisphere[0].img_url}}" alt="hemisphere" style="width:50%;">
+                            <div class="caption"style="font-weight: bold;">
+                                {{mars_data.hemisphere[0].title}}
+                            </div> 
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{mars_data.hemisphere[1].img_url}}" alt="hemisphere" style="width:50%;">
+                            <div class="caption"style="font-weight: bold;">
+                                {{mars_data.hemisphere[1].title}}
+                            </div>                                                          
+                        </div>
+                        <div class="col-md-6">
+                            
+                                <img src="{{mars_data.hemisphere[2].img_url}}" alt="hemisphere" style="width:50%;">
+                                <div class="caption"style="font-weight: bold;">
+                                    {{mars_data.hemisphere[2].title}}
+                                </div> 
+                        </div>
+                        <div class="col-md-6">
+                                <img src="{{mars_data.hemisphere[3].img_url}}" alt="hemisphere" style="width:50%;">
+                                <div class="caption"style="font-weight: bold;">
+                                    {{mars_data.hemisphere[3].title}}
+                            </div> 
+                        </div>
+                           
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                
+                        
+                             
+            </div>
+            
+        </div>
+    
+</body>
+</html>
