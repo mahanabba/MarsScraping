@@ -1,4 +1,4 @@
-# Mars Sraping 
+# Mars Scraping 
 
 Web scraping of the NASA website and twitter to get current images, facts, and reports of weather for the planet Mars. 
 
