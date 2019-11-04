@@ -9,6 +9,6 @@ Download repository and run the app.py. Note: Either add chromedriver to reposit
 driver = webdriver.Chrome(executable_path='C:/path/to/chromedriver.exe')
 
 Screenshots:
-![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/marsscreenshot.PNG)
+![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/marspicupdated.PNG)
 
-![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/screenshot2.PNG)
+![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/marsupdated2.PNG)
