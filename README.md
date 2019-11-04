@@ -8,6 +8,6 @@ Instructions:
 Download repository and run the app.py
 
 Screenshots:
-![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/Screenshot1.PNG)
+![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/screenshot1.PNG)
 
-![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/Screenshot2.PNG)
+![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/screenshot2.PNG)
