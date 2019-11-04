@@ -6,3 +6,8 @@ Web scraping done with Beautiful Soup and the website is deployed using a Flask 
 
 Instructions:
 Download repository and run the app.py
+
+Screenshots:
+![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/Screenshot1.PNG)
+
+![Map Screenshot](https://github.com/mahanabba/MarsScraping/blob/master/Screenshot2.PNG)
