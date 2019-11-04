@@ -30,7 +30,7 @@ def scrape():
     tweet = tweet.replace('\n','').split('pic.twitter')[0]
     mf_url = 'https://space-facts.com/mars/'
     mf_df = pd.read_html(mf_url)[0]
-    mf_df.columns = ['Records:','Data']
+    mf_df.columns = ['Records:','Mars', 'Earth']
     mf_df.set_index('Records:',inplace=True)
     mf_html = mf_df.to_html()
     h_url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
